@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilidades CSS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Probando Pure css</h1>
+    <table class="pure-table pure-table-bordered">
+      <thead>
+        <tr>
+            <th>Titulo</th>
+            <th>Autor</th>
+            <th>Año</th>
+            <th>Enlace a Amazon</th>
+        </tr>
+      </thead>
+      <tbody> 
+        <tr>
+            <td>Como ganar amigos</td>
+            <td>Dale Carnegie</td>
+            <td>1970</td>
+            <td>www.amazon.com</td>
+        </tr>
+        <tr>
+            <td>Tus zonas erroneas</td>
+            <td>Dier Wayne</td>
+            <td>1943</td>
+            <td>www.amazon.com</td>
+        </tr>
+        <tr>
+            <td>El Principito</td>
+            <td>Saint-Exupéry</td>
+            <td>1960</td>
+            <td>www.amazon.com</td>
+        </tr>
+      </tbody>
+    </table><br>
+    <button id="button" class="pure-button  pure-button-primary">Aceptar</button>
+    <h3>Espacios y tamnaños</h3>
+    <div class="ancho">
+        <h4>Cambiar ancho</h4>
+    </div>
+    <div class="alto">
+        <h4>Cambiar altura</h4>
+    </div>
+    <!-- Haciendo una targeta -->
+    <div class="target">
+        <div class="img">
+            <img src="https://cdn.pixabay.com/photo/2015/10/01/17/17/car-967387_1280.png" alt="car">
+            <div class="detalles">
+                <h3 class="titulo">Auto rojo</h3>
+                <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum exercitationem tempore fuga esse alias est vitae veniam. Sit, iure reprehenderit? Numquam ratione aperiam exercitationem nulla libero vel ex recusandae excepturi?</p>
+                <p><span class="precio">$7000</span></p>
+                <button class="comprar">Agregar</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    const prueba = document.querySelector("#button")
+    prueba.addEventListener("click", () => {
+        alert("Usted a presionado el botton ")
+    })
+</script>
+</html>

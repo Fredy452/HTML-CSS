@@ -1,0 +1,55 @@
+/* Usando fondos de google */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&display=swap');
+html{
+    margin-top: 10px;
+    padding: 20px 30px;
+}
+.h1 h2 h3 p{
+    font-family: 'Raleway', sans-serif;
+}
+h1{
+    color: rgb(2, 26, 18);
+    text-align: center;
+}
+p {
+    font: 1em sans-serif;
+}
+/* Anchura */
+.ancho{
+    background-color: aqua;
+    width: 300px;
+    /* Espacio de adentro */
+    padding: 10px 10px;
+    text-align: center;
+}
+/* Altura */
+.alto{
+    background-color: black;
+    height: 300px;
+}
+.alto h4{
+    color: aliceblue;
+    text-align: center;
+    padding: 150px 150px;
+    font-size: 20px;
+}
+.target{
+    background-color: darkgray;
+    border: 1px;
+    border-color: rgb(41, 90, 74);
+    border-radius: 20px;
+    margin: 20px 10px;
+}
+.target img{
+    width: 600px;
+    height: 400px;
+}
+.detalles{
+    padding: 10px 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.comprar{
+    width: 100px;
+}
+
