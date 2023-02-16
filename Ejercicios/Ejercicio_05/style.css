@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+/* Quitamos la opacidad si pasamos el hover */
+.imagen:hover{
+    opacity: 0.5;
+}
+.conten{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.galery{
+    width: 300px;
+}
+.galery:hover{
+    opacity: 0.5;
+}

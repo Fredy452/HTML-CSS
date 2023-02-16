@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.imagen{
+    width: 100vw;
+    opacity: 1;
+}
+/* Quitamos la opacidad si pasamos el hover */
+.imagen:hover{
+    opacity: 0.5;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.galery{
+    width: 220px;
+}
+.galery:hover{
+    opacity: 0.5;
+}
