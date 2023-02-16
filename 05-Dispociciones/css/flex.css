@@ -1,0 +1,125 @@
+h2{
+    text-align: center;
+}
+.content{
+    display: flex;
+    background-color: black;
+    border: 1px solid;
+    border-color: rgb(0, 0, 10);
+    margin: 0 auto;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+}
+.pantalla{
+    background-color: rgb(252, 238, 238);
+    width: 300px;
+    height: 80px;
+    border-radius: 20px 20px 0 0;
+    margin: 0 auto;
+    border: 1px solid;
+    border-bottom: 0;
+    border-color: rgb(0, 0, 10);
+}
+/* .sider{
+    background-color: azure;
+    justify-content: flex-start;
+    width: 100px;
+    height: 50%;
+} */
+.num2{
+    background-color: rgba(116, 97, 226, 0.842);
+    width: 100px;
+    height: 100px;
+    color: black;
+    text-align: center;
+}
+.num3{
+    background-color: rgb(116, 2, 36);
+    width: 100px;
+    height: 100px;
+    color: black;
+    text-align: center;
+}.num4{
+    background-color: rgb(229, 243, 235);
+    width: 100px;
+    height: 100px;
+    color: black;
+    text-align: center;
+}.num5{
+    background-color: rgb(217, 243, 70);
+    width: 100px;
+    height: 100px;
+    color: black;
+    text-align: center;
+}.num6{
+    background-color: rgb(182, 215, 228);
+    width: 100px;
+    height: 100px;
+    color: black;
+    text-align: center;
+}.num7{
+    background-color: rgb(255, 33, 4);
+    width: 100px;
+    height: 100px;
+    color: black;
+    text-align: center;
+}.num8{
+    background-color: rgb(47, 145, 85);
+    width: 100px;
+    height: 100px;
+    color: black;
+    text-align: center;
+}.num9{
+    background-color: rgb(238, 156, 206);
+    width: 100px;
+    height: 100px;
+    color: black;
+    text-align: center;
+}.num10{
+    background-color: rgb(127, 134, 130);
+    width: 100px;
+    height: 100px;
+    color: black;
+    text-align: center;
+}.num1{
+    background-color: rgb(2, 116, 46);
+    width: 100px;
+    height: 100px;
+    color: black;
+    text-align: center;
+}
+/* trabajando con overflow */
+.overflow-visible{
+    background-color: rgb(122, 114, 114);
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: visible;
+}
+/* Oculta el contenido sobrante */
+.overflow-hiden{
+    background-color: rgb(122, 114, 114);
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/* Agrega un scroll para ver todo el contenido */
+.overflow-scroll{
+    background-color: rgb(122, 114, 114);
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: scroll;
+}
+/* Para adaptar el contenido automaticamnete */
+.overflow-auto{
+    background-color: rgb(122, 114, 114);
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: auto;
+}

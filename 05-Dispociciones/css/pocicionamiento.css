@@ -46,6 +46,8 @@ div{
     top: 0;
 }
 .practica{
+    background-image: url("https://cdn.pixabay.com/photo/2022/06/27/18/56/grass-7288141_960_720.jpg");
+    opacity: 0.5;
     position: relative;
     background-color: aliceblue;
     width: auto;
