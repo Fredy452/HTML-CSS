@@ -5,6 +5,6 @@
     color: white;
     background-color: green;
 }
-.contenedor button::after{
+.contenedor button:hover::before{
     content: "Hecho";
 }
