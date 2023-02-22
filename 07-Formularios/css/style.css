@@ -1,0 +1,53 @@
+h2{
+    text-align: center;
+}
+form{
+    position: flex;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    width: 400px;
+    height: 500px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+    border-color: bisque;
+}
+input{
+    width: 350px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    border-color: rgb(226, 231, 231);
+    border-radius: 5px;
+}
+input:focus{
+    border-color: rgb(5, 240, 240);
+}
+input::placeholder{
+    color: rgb(153, 152, 151);
+}
+.button{
+    margin-left: 25px;
+    padding: 8px;
+    width: 350px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(2, 247, 247);
+}
+.button:hover{
+    box-shadow: 10px 10px 10px 0px grey;
+
+}
+input[type="password"]{
+    color: red;
+}
+input[type="checkbox"]{
+    background-color: aqua;
+    width: 20px;
+    height: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}

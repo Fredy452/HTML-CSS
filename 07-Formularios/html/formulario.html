@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h2>Trabajando con formularios</h2>
+    <form action="" method="">
+        <input type="text" name="name" placeholder="Ingrese nombre">
+        <input type="text" name="lastname" placeholder="Ingrese apellido">
+        <input type="text" name="email" placeholder="Ingrese correo">
+        <input type="password" name="password" id="pass" placeholder="Ingrese contraseña">
+        <input type="checkbox" name="show" id="show" onclick="showPassword()">Mostrar
+        <button class="button">Enviar</button>
+    </form>
+</body>
+<script>
+    const pass = document.querySelector("#pass")
+    function showPassword(){
+     if (pass.type === "password") {
+        pass.type = "text"
+     } else {
+        pass.type = "password"
+     }   
+    }
+</script>
+</html>
