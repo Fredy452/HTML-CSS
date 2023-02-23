@@ -1,0 +1,91 @@
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    text-align: center;
+}
+.padre{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    background-color: blue;
+    border: 1px solid black;
+}
+.hijo{
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+}
+/* Aplicamos una transicion al componente hijo */
+.padre:hover .hijo{
+    transform: translateX(100%);
+    background-color: aquamarine;
+}
+/* Trabajando con animaciones */
+.padre1{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    background-color: rgba(108, 250, 127, 0.938);
+    border: 1px solid black;
+}
+.hijo1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(245, 245, 245);
+    animation: traslation 3s;
+}
+/* Aplicamos una animacion al componente hijo */
+.padre1:hover .hijo1{
+    animation: step-start;
+}
+/* Establecemos los parametros para la traslation */
+@keyframes traslation {
+    0%{
+        background-color: beige;
+        transform: translateX(0%);
+    }
+    25%{
+        background-color: beige;
+        transform: translateX(40%) translateY(50%);
+    }
+    50%{
+        transform: translateX(100%);
+    } 
+    75%{
+        transform: translateX(100%) translateY(100%);
+    }
+    100%{
+        background-color: yellow;
+        transform: translateY(100%) translateX(0%);
+    }
+}
+/* Haciendo animacion personalizada */
+.padre2{
+        width: 400px;
+        height: 100px;
+        background-color: darkgray;
+        border: 1px solid;
+}
+.hijoa{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+.padre2:hover .hijoa{
+    animation: traslation 3s linear;
+}
+@keyframes traslation {
+    0%{
+        transform: translatey(50px);
+    }
+    10%{
+        transform: translatey(50px) translatex(50px);
+    }
+    20%{
+        transform: translatex(100px) translatey(100px);
+    }
+}
