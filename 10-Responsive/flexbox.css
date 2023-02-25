@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    background-color: #a1c2e2;
+    height: 3rem;
+    padding: 0.3rem;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+.item{
+    border: 1px solid pink;
+    padding: 0.3rem;
+    border-radius: 5px;
+}
+.item a{
+    text-decoration: none;
+    color: white;
+}
+.item:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px pink;
+    background-color: rgb(32, 184, 184);
+}
