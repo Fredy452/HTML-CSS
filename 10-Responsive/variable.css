@@ -1,0 +1,12 @@
+:root{
+    --background--color: red;
+    --text--color: rgb(10, 10, 34);
+    --font--size: 3rem;
+}
+h3{
+    color: var(--background--color);
+}
+p{
+    color: var(--text--color);
+    font-size: var(--font--size);
+}
