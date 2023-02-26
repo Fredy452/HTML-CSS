@@ -1,0 +1,5 @@
+body.dark {   background:  #333; }
+body.dark h3 {   color:#fff}
+body.dark p {color: #fff;}
+body.dark .card-container {background-color: rgb(64, 67, 70);}
+body.dark .card {background-color: #b8a7a7;}
