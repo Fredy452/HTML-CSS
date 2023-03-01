@@ -1,0 +1,12 @@
+.box-1{
+    @include div-format(pink)
+}
+.box-2{
+    @include div-format(red)
+}
+.box-3{
+    @include div-format(green)
+}
+.sep{
+    @include sep-format()
+}

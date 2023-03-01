@@ -1,0 +1,15 @@
+@mixin div-format($div-color){
+    display: grid;
+    background-color: $div-color;
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 2rem;
+    margin: 2rem;
+}
+@mixin sep-format(){
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
