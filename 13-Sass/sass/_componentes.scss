@@ -1,12 +1,13 @@
+@use "mixins";// importamos los mixins para poder usarlos
 .box-1{
-    @include div-format(pink)
+    @include mixins.div-format(pink)
 }
 .box-2{
-    @include div-format(red)
+    @include mixins.div-format(red)
 }
 .box-3{
-    @include div-format(green)
+    @include mixins.div-format(green)
 }
-.sep{
-    @include sep-format()
+.box-4{
+    @include mixins.div-format(black)
 }

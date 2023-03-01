@@ -14,6 +14,10 @@ body {
   flex-direction: column;
 }
 
+h3 {
+  color: aqua;
+}
+
 .box-1 {
   display: grid;
   background-color: pink;
@@ -21,6 +25,8 @@ body {
   height: 20rem;
   margin-bottom: 2rem;
   margin: 2rem;
+  border-radius: 8px;
+  border: 1px solid black;
 }
 
 .box-2 {
@@ -30,6 +36,8 @@ body {
   height: 20rem;
   margin-bottom: 2rem;
   margin: 2rem;
+  border-radius: 8px;
+  border: 1px solid black;
 }
 
 .box-3 {
@@ -39,13 +47,19 @@ body {
   height: 20rem;
   margin-bottom: 2rem;
   margin: 2rem;
+  border-radius: 8px;
+  border: 1px solid black;
 }
 
-.sep {
+.box-4 {
   display: grid;
+  background-color: black;
+  width: 20rem;
+  height: 20rem;
+  margin-bottom: 2rem;
+  margin: 2rem;
+  border-radius: 8px;
   border: 1px solid black;
-  grid-template-columns: repeat(3, 1fr);
-  row-gap: 2rem;
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

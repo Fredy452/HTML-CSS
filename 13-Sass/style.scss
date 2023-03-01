@@ -1,6 +1,12 @@
 // Importamos los estilos
-@import "sass/style";
+// @import "sass/style";
 // mixins
-@import "sass/mixins";
+// @import "sass/mixins";
 // estilos de componenetes
-@import "sass/componentes";
+// @import "sass/componentes";
+// En ves de usar el impor vamos a usar use pero para eso para eso hay que agregar use en el mixins tamibien 
+@use "sass/style";
+// mixins
+@use "sass/mixins";
+// compopnnetes
+@use "sass/componentes";

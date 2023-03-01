@@ -5,6 +5,8 @@
     height: 20rem;
     margin-bottom: 2rem;
     margin: 2rem;
+    border-radius: 8px;
+    border: 1px solid black;
 }
 @mixin sep-format(){
     display: grid;
