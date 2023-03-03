@@ -1,0 +1,56 @@
+// cremos configuración principal del botton 
+@mixin btn-main-base{
+    border-radius: 0.25rem;
+    padding: 0.25rem 1.5rem;
+}
+// configuración para boton secundario
+@mixin btn-sec-main{
+    font-size: 0.75rem;
+    padding: 0.1rem 1rem;
+}
+// Definimos color del boton principal
+$color-btn: #2689FF;
+.btn-main{
+    @include btn-main-base();
+    color: white;
+    border: 1px solid $color-btn;
+    background-color: $color-btn;
+    // Agregamos un hover
+    &:hover{
+        background-color: white;
+        color: $color-btn;
+    }
+    // agregamos estilo al boton main secundario
+    &-s{
+        @extend .btn-main;
+        @include btn-sec-main();
+    }
+}
+// modificamos los botenes secundarios
+.btn-sec{
+    @include btn-main-base();
+    color: black;
+    background-color: white;
+    border: none;
+    // Cambiamos el hover
+    &:hover{
+        color: #888282;
+    }
+    // hacemos el boton secundario-s mas pequeño
+    &-s{
+        @extend .btn-sec;
+        @include btn-sec-main()
+    }
+}
+// Creamos el nav
+.main-menu{
+    li{
+        list-style: none;
+        display: inline;
+        font-size: 0.5rem;
+        &:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+}
