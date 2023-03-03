@@ -39,6 +39,53 @@
   text-decoration: underline;
 }
 
+.icon-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  border: none;
+  background-color: transparent;
+  color: #2689FF;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3333333333);
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.feature i {
+  font-size: 6rem;
+  color: #2689FF;
+}
+.feature .description {
+  font-size: 0.75rem;
+  color: rgb(136, 130, 130);
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+.feature .gta {
+  font-size: 0.75rem;
+  color: #2689FF;
+  font-weight: 600;
+}
+
+.icon-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-desc .icon {
+  font-size: 6rem;
+  color: #2689FF;
+}
+.icon-desc .title {
+  margin-top: -1.5rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -54,3 +54,52 @@ $color-btn: #2689FF;
         }
     }
 }
+// agregamos estilos al icono
+.icon-sm{
+    padding: 0.25rem 0.50rem;
+    font-size: 0.75rem;
+    border: none;
+    background-color: transparent;
+    color: $color-btn;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #00000055;
+}
+// Creamos estilo para feature
+.feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    i{
+        font-size: 6rem;
+        color: $color-btn;
+    }
+    .description{
+        font-size: 0.75rem;
+        color: rgb(136, 130, 130);
+        font-weight: 600;
+        margin-bottom: 3rem;
+    }
+    .gta{
+        font-size: 0.75rem;
+        color: $color-btn;
+        font-weight: 600;
+    }
+}
+// Est6ilamos los icons des
+.icon-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .icon{
+        font-size: 6rem;
+        color: $color-btn;
+    }
+    .title{
+        margin-top: -1.5rem;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+}
