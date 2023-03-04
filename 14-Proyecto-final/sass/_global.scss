@@ -1,5 +1,12 @@
 // importamos components para poder usar el color
 @use "components";
+// Creamos mixins
+@mixin sec-display{
+    padding: 3rem;
+    margin: auto;
+    width: 100%;
+    max-width: 768px;
+}
 body{
     margin: 0;
     padding: 0;
@@ -32,8 +39,8 @@ nav{
 .sec-home{
     display: flex;
     align-items: center;
-    padding: 4rem 6rem;
-    width: 100%;
+    @include sec-display();
+    
     .home-cta{
         flex: 1;
         .cta-text{
@@ -49,5 +56,15 @@ nav{
     }
     .home-buttons{
         width: 400px;
+    }
+}
+
+.sec-features{
+    @include sec-display();
+    .title{
+        align-items: center;
+        p{
+            color: #555252;
+        }
     }
 }

@@ -115,8 +115,10 @@ nav .log img:hover {
 .sec-home {
   display: flex;
   align-items: center;
-  padding: 4rem 6rem;
+  padding: 3rem;
+  margin: auto;
   width: 100%;
+  max-width: 768px;
 }
 .sec-home .home-cta {
   flex: 1;
@@ -133,6 +135,19 @@ nav .log img:hover {
 }
 .sec-home .home-buttons {
   width: 400px;
+}
+
+.sec-features {
+  padding: 3rem;
+  margin: auto;
+  width: 100%;
+  max-width: 768px;
+}
+.sec-features .title {
+  align-items: center;
+}
+.sec-features .title p {
+  color: #555252;
 }
 
 /*# sourceMappingURL=style.css.map */
