@@ -112,4 +112,27 @@ nav .log img:hover {
   cursor: pointer;
 }
 
+.sec-home {
+  display: flex;
+  align-items: center;
+  padding: 4rem 6rem;
+  width: 100%;
+}
+.sec-home .home-cta {
+  flex: 1;
+}
+.sec-home .home-cta .cta-text {
+  color: #2689FF;
+}
+.sec-home .home-cta .home-title {
+  width: 20rem;
+  font-size: 3rem;
+}
+.sec-home .home-cta .home-description {
+  width: 300px;
+}
+.sec-home .home-buttons {
+  width: 400px;
+}
+
 /*# sourceMappingURL=style.css.map */

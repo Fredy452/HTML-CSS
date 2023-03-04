@@ -1,7 +1,10 @@
+// importamos components para poder usar el color
+@use "components";
 body{
     margin: 0;
     padding: 0;
 }
+// estilamos el navbar
 nav{
     display: flex;
     align-items: center;
@@ -24,4 +27,27 @@ nav{
         }
     }
 
+}
+// Estilamos la secion home
+.sec-home{
+    display: flex;
+    align-items: center;
+    padding: 4rem 6rem;
+    width: 100%;
+    .home-cta{
+        flex: 1;
+        .cta-text{
+            color: components.$color-btn;
+        }
+        .home-title{
+            width: 20rem;
+            font-size: 3rem;
+        }
+        .home-description{
+            width: 300px;
+        }
+    }
+    .home-buttons{
+        width: 400px;
+    }
 }
