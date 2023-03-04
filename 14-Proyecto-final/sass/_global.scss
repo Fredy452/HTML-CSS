@@ -1,8 +1,27 @@
-*{
+body{
     margin: 0;
     padding: 0;
 }
-.container{
-    margin: 2rem;
-    padding: 2rem;
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #ddd;
+    height: 4rem;
+    width: 100%;
+    
+    ul{
+        margin-bottom: 0;
+        li{
+            margin-right: 10px;
+        }
+    }
+
+    .log img{
+        max-width: 7rem;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
 }

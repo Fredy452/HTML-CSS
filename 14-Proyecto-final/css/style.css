@@ -32,7 +32,7 @@
 .main-menu li {
   list-style: none;
   display: inline;
-  font-size: 0.5rem;
+  font-size: 0.9rem;
 }
 .main-menu li:hover {
   cursor: pointer;
@@ -86,14 +86,30 @@
   font-size: 1.5rem;
 }
 
-* {
+body {
   margin: 0;
   padding: 0;
 }
 
-.container {
-  margin: 2rem;
-  padding: 2rem;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #ddd;
+  height: 4rem;
+  width: 100%;
+}
+nav ul {
+  margin-bottom: 0;
+}
+nav ul li {
+  margin-right: 10px;
+}
+nav .log img {
+  max-width: 7rem;
+}
+nav .log img:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
