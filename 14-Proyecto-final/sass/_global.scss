@@ -61,10 +61,36 @@ nav{
 
 .sec-features{
     @include sec-display();
+    max-width: 992px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     .title{
         align-items: center;
         p{
             color: #555252;
         }
     }
+
+    .features{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        .feature-card{
+            flex: 1;
+            padding: 2rem 0;
+            .features-text{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+        }
+        .feature-img{
+            max-width: 20rem;
+            img{
+                vertical-align: middle;
+            }
+        }
+    }
 }
+// Trabajando con la seccion feacture
